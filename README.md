@@ -5,6 +5,7 @@ First, Download the pretrained Variational AutoEncoder(VAE) and Latent-Diffusion
 Make sure that the path of checkpoint. 
 
 checkpoint of LDM: ./checkpoint/model_ckpt.pth 
+
 checkpoint of VAE: ./checkpoint/vae_ldm8/vae_ckpt.pth
 
 After that, execute the sample_ldm.py to perform CT denoising with my proposed algorithm.
