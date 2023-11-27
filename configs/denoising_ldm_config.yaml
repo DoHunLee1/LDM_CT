@@ -1,0 +1,16 @@
+conditioning:
+  method: ps_ldm
+  params:
+    scale: 1.0
+data:
+  name: aapm
+  root: ./data/aapm/AAPM/
+  train: False
+
+measurement:
+  operator:
+    name: noise
+
+  noise:
+    name: poisson
+    rate: 0.05

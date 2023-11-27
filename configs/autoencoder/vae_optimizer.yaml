@@ -1,0 +1,6 @@
+optim:
+    weight_decay: 0.000
+    optimizer: "Adam"
+    lr: 1.0e-5
+    beta1: 0.9
+    amsgrad: False

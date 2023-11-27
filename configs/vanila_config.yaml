@@ -1,0 +1,15 @@
+conditioning:
+  method: vanilla
+  params:
+    scale: 0.0 
+
+data:
+  name: aapm
+  root: ./data/aapm/AAPM/
+
+measurement:
+  operator:
+    name: noise
+  
+  noise: 
+    name: clean
